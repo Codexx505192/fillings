@@ -8,19 +8,16 @@ export default function Page(){
         <>
         <section id="contacts-page">
             <div className="container">
-                <Header/>
-                <Banner/>
-
-                <div className="cataloc_block">
-                    <p className="txt25">Главная - Каталог</p>
-                    <Catl/>
-                </div>
+              <Header/>
+              <Banner/>
             </div>
         </section>
 
         <section>
             <div className="container">
-                <Footer/>
+                <div className="contacts_block">
+                    <p className="txt25">Главная - Контакты</p>
+                </div>
             </div>
         </section>
         </>
