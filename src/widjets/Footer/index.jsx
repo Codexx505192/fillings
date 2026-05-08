@@ -24,25 +24,25 @@ export default function Footer(){
                 <div className="footer_right">
                   <ul className="ul3">
                     <li>
-                      <Link href="#" className="lnk3">
+                      <Link href="/" className="lnk3">
                        Главаня
                       </Link>
                     </li>
 
                      <li>
-                      <Link href="#" className="lnk3">
+                      <Link href="/cataloc" className="lnk3">
                        Каталог
                       </Link>
                     </li>
 
                      <li>
-                      <Link href="#" className="lnk3">
+                      <Link href="/aboutUs" className="lnk3">
                        О компании
                       </Link>
                     </li>
 
                      <li>
-                      <Link href="#" className="lnk3">
+                      <Link href="/contacts" className="lnk3">
                        Контакты
                       </Link>
                     </li>

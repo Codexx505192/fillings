@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useState } from "react"
 
 export default function Header(){
@@ -28,15 +29,21 @@ export default function Header(){
 
                     <ul className="ul1">
                       <li className="li1">
+                        <Link href="/" className="lnk4">
                          Главная
+                        </Link>
                       </li>
 
                       <li className="li2">
+                         <Link href="/aboutUs" className="lnk4">
                          О компаний
+                         </Link>
                       </li>
 
                       <li className="li2">
+                        <Link href="/contacts" className="lnk4">
                         Контакты
+                        </Link>
                       </li>
                     </ul>
                   </div>
